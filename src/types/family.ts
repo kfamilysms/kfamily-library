@@ -54,6 +54,8 @@ export type IFamilyEvents = {
   partnerId?: string
   familyId?: string
 
+  messages?: IFamilyEventsMessage[]
+
   createdAt?: string
   updatedAt?: string
 }
@@ -68,4 +70,14 @@ export type IFamilyEventsReceipt = {
   smsNumber?: IPhoneNumber
   mbEntityId?: string
   mbNumber?: string
+}
+
+export type IFamilyEventsMessage = {
+  id?: string
+  name?: string
+  message?: string
+  profileImage?: string
+  profileName?: string
+  profileLocation?: string
+  device?: string
 }

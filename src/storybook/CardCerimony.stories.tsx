@@ -1,17 +1,16 @@
 import CardCerimony from '../components/CardCerimony'
-import CardContainer from '../components/CardContainer'
 
 import '../index.css'
 
 export default {
   title: 'Components/CardCerimony',
-  component: CardContainer,
+  component: CardCerimony,
 }
 
 export const CardNormal = () => (
   <CardCerimony
     cerimony={{
-      name: 'Ceri name',
+      name: 'José Manuel Diaz Queiroz de Oliveira',
       age: '88 anos',
       cemetery: {
         placeId: 'Placement',

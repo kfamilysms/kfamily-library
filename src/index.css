@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-  --primary-color: #FFFFFF;
+  --primary-color: #619978;
+  --primary-color-highlight: #61997830;
+
   --primary-contrast-color: #ffffff;
 
-  --secondary-color: #034833;
+  --secondary-color: #52554f;
 
-  --background-color: #FFFFFF;
+  --background-color: #f8f9fa;
 
   --font-size: 16px;
   --primary-font-family:'Plus Jakarta Sans', sans-serif;
